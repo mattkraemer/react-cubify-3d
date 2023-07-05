@@ -5,7 +5,7 @@ A customizable 3D cube component for React.
 To install my-3d-cube, you can use npm:
 
 ```
-npm install react3dcube
+npm install react-cubify-3d
 ```
 
 ## Usage
