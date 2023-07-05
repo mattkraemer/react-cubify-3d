@@ -1,6 +1,6 @@
 {
   "name": "react-cubify-3d",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A 3D cube component for React",
   "main": "index.js",
   "scripts": {
