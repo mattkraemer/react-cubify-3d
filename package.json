@@ -1,5 +1,5 @@
 {
-  "name": "react3dcube",
+  "name": "react-cubify-3d",
   "version": "1.0.0",
   "description": "A 3D cube component for React",
   "main": "index.js",
