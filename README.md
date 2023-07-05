@@ -1,7 +1,9 @@
-# react3dcube
+# react-cubify-3d
+
 A customizable 3D cube component for React.
 
 ## Installation
+
 To install my-3d-cube, you can use npm:
 
 ```
@@ -9,11 +11,12 @@ npm install react-cubify-3d
 ```
 
 ## Usage
+
 Here's a basic example of how to use the Cube component:
 
 ```
 import React from 'react';
-import Cube from 'react3dcube';
+import Cube from 'react-cubify-3d';
 
 function App() {
   return (
@@ -33,9 +36,15 @@ By default, the cube will have a width, height, and depth of 100. You can custom
 ```
 
 ## Props
+
 ### width
+
 The width of the cube. Defaults to 100.
+
 ### height
+
 The height of the cube. Defaults to 100.
+
 ### depth
+
 The depth of the cube. Defaults to 100.
