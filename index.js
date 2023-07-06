@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
 
-const React3DCube = ({width, height, depth}) => {
+const React3DCube = ({width, height, depth, backgroundColor, borderWidth, borderColor}) => {
   const [width, setWidth] = useState(100);
   const [height, setHeight] = useState(100);
   const [depth, setDepth] = useState(100);
+  const [backgroundColor, setBackgroundColor] = useState('rgba(255, 255, 255, 0.7)');
+  const [borderWidth, setBorderWidth] = useState(1);
+  const [borderColor, setBorderColor] = useState('#ccc');
 
   const cubeStyle = {
     width: `${width}px`,
@@ -16,8 +19,8 @@ const React3DCube = ({width, height, depth}) => {
     position: 'absolute',
     width: `${width}px`,
     height: `${height}px`,
-    background: 'rgba(255, 255, 255, 0.7)',
-    border: '1px solid #ccc',
+    background: backgroundColor,
+    border: `${borderWidth}px solid ${borderColor}`,
   };
 
   return (
